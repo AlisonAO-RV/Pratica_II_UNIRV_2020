@@ -8,9 +8,7 @@
 public class L07_EX04 {
     public static void main(String[] args) {
 
-        int vetor[] = { 111, 999, 222, 999, 333, 888, 444, 777, 555, 666, 555, 89, 79, 32, 38, 46, 26, 43, 48, 33, 179,
-                24, 56, 62, 74, 87, 98, 101, 112, 115, 135, 148, 159, 53, 68, 84, 92, 104, 116, 128, 139, 145, 151, 47,
-                302, 286, 254, 231, 209, 193, 182, 174, 155, 122, 84 };
+        int vetor[] = {302, 286, 254, 231, 209, 193, 182, 174, 155, 122, 84};
 
         int auxiliar = 0;
         int menor = 0;
@@ -33,7 +31,9 @@ public class L07_EX04 {
         for (int i = 0; i < vetor.length - 1; i++) {
             menor = i;
             for (int j = i + 1; j < vetor.length; j++) {
-                if (vetor[j] < vetor[menor]) {
+
+                System.out.printf("%d > %d\n", vetor[j],  vetor[menor]);
+                if (vetor[j] > vetor[menor]) {
                     menor = j;
                 }
                 contadorComparacao++;
