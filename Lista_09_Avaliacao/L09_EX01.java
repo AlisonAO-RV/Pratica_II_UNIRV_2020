@@ -42,7 +42,7 @@ public class L09_EX01 {
         for (int i = 0; i < Loja.length; i++) {
             for (int j = 0; j < Produto.length; j++) {
                 if (precos[i][j] <= 120.00) {
-                    System.out.printf("Loja: %-13s | Produto: %-10s | Preço: \33[0;33mR$%.2f\33[0m\n", Loja[i], Produto[j], precos[i][j]);
+                    System.out.printf("Loja: %-13s | Produto: %-10s | Preço: \33[0;33mR$ %.2f\33[0m\n", Loja[i], Produto[j], precos[i][j]);
                 }
             }
         }

@@ -1,0 +1,21 @@
+01) Quantos itens são examinados pelo algoritmo de busca binária faz,
+no máximo, para encontrar um item num vetor com 4000 itens?
+
+Resposta: no maximo 13 verificações
+
+4000 -> potencia mais proxima 2^12 = 4096 ( 12 + 1 ) = 13 verificações.
+
+
+4000    1
+2000    2
+1000    3
+500     4
+250     5
+125     6
+63      7
+32      8
+16      9
+8       10
+4       11
+2       12
+1       13

@@ -1,0 +1,18 @@
+05) Determine o tempo gasto (busca) dos exercícios 2 e 3.
+
+Exercícios 02
+    Busca Sequencial: 0.02 ms
+
+Exercícios 03 
+    Busca Binária :
+        Metodo de Ordenação: BubleSort
+
+        Tempo Junto com Ordenação: 0.02 ms
+
+        Tempo apos a ordenação: 0.00 ms
+
+OBS.: os resultados foram obtidos diretamente dos exercícios 2 e 3
+o tempo foi calculado para a busca de todos os resultado.
+
+
+        

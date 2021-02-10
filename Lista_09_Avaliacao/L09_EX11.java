@@ -23,6 +23,8 @@ public class L09_EX11 {
             }
         }
 
+        
+
         System.out.printf("\n\33[0;33m| MATRIZ ORIGINAL  \33[0m\n");
         for (int i = 0; i < MatrizA.length; i++) {
 

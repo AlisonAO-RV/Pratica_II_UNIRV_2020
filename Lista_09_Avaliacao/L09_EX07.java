@@ -17,15 +17,9 @@ public class L09_EX07 {
 
         System.out.printf("\n\33[0;33m*** Digite Números Multiplos de 5\33[0m\n");
         for (int i = 0; i < MatrizA.length; i++) {
-            for (int j = 0; j < MatrizA[i].length; j++) {
-                if (i == j) {
-                    System.out.printf("\33[0;33m-->: \33[0m");
-                    MatrizA[i][j] = sc.nextInt();
-                }
-            }
+            System.out.printf("\33[0;33m-->: \33[0m");
+            MatrizA[i][i] = sc.nextInt();
         }
-
-        sc.close();
 
         System.out.printf("\n\33[0;32m*** Digite Números Positivos Pares\33[0m\n");
         for (int i = 0; i < MatrizA.length; i++) {
@@ -42,6 +36,8 @@ public class L09_EX07 {
                 MatrizA[i][j] = sc.nextInt();
             }
         }
+
+        sc.close();
 
         System.out.printf("\n\33[0;33m*** Resultados\33[0m\n");
         for (int i = 0; i < MatrizA.length; i++) {

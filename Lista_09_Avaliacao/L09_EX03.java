@@ -70,7 +70,7 @@ public class L09_EX03 {
             }
             // System.out.printf("Linha: %d\n\n", pos2);
 
-                if (i == pos2) {   
+                if (Aux == Aux2) {   
                     System.out.printf("\n\33[0;33mRESULTADO\33[0m\n");
                     System.out.printf("Linha: \33[0;33m%d\33[0m | Coluna: \33[0;33m%d\33[0m\n\n\n", i, pos);
                 }
